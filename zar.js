@@ -1,0 +1,12 @@
+var zar = prompt("Твоя зарплата");
+alert("Премия 30$");
+var pre = 30;
+var gg = Number(zar);
+var sum = gg + pre;
+alert(sum);
+alert("За квартиру -200");
+var vtoroj = sum - 200;
+alert(vtoroj);
+alert("Магазин -50$");
+var tretij = vtoroj - 50;
+alert("Осталось " + tretij);
